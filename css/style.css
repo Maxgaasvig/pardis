@@ -4,7 +4,7 @@ body {
     font-size: 17px;
 }
 
-h1{
+h1 {
     font-size: 30px;
     font-weight: bold;
     display: flex;
@@ -61,7 +61,7 @@ header img {
     padding-bottom: 3px;
 }
 
- nav {
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -212,6 +212,43 @@ header img {
 
 /* ---------------------------------- Her starter CSS for kontakt ---------------------------------- */
 
+#kontakt {
+    text-align: center;
+}
+
+#kontakt h1 {
+    padding-top: 10%;
+}
+
+#kontakt h2 {
+    padding-top: 10%;
+}
+
+#map {
+    width: 80%;
+    height: 300px;
+    border-radius: 2%;
+    margin: auto;
+}
+
+#mapdiv {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+    color: black;
+}
+
+#kontakt {
+    padding-bottom: 5%;
+}
+
+#find {
+    padding-top: 5%;
+    text-align: center;
+}
 
 /* ---------------------------------- Her slutter CSS for kontakt ---------------------------------- */
 
@@ -221,7 +258,3 @@ header img {
 
 
 /* ---------------------------------- Her slutter CSS for booking ---------------------------------- */
-
-
-
-
