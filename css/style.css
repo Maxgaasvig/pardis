@@ -195,12 +195,14 @@ header img {
     padding-top: 10%;
     display: flex;
     margin: 0 auto;
+    width: 80%
 }
 
 #ptekst{
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
+    line-height: 1.5;
 }
 
 
