@@ -9,6 +9,7 @@ h1{
     font-weight: bold;
     display: flex;
     justify-content: center;
+    padding-top: 10%;
 }
 
 
@@ -189,6 +190,18 @@ header img {
 
 
 /* ---------------------------------- Her starter CSS for om pardis ---------------------------------- */
+
+#pardismobile{
+    padding-top: 10%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#ptekst{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 
 /* ---------------------------------- Her slutter CSS for om pardis ---------------------------------- */
