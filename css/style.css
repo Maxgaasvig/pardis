@@ -7,6 +7,31 @@ body {
 
 /* ---------------------------------- Her starter CSS for Footer ---------------------------------- */
 
+footer {
+    background-color: #3F3722;
+    display: flex;
+    color: white;
+}
+
+footer div {
+    width: 33.33%;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 13px;
+    line-height: 1.5px;
+    text-align: center;
+}
+
+.someimages {
+    width: 30%;
+}
+
 
 /* ---------------------------------- Her slutter CSS for Footer ---------------------------------- */
 
@@ -21,7 +46,7 @@ body {
 
 /* ---------------------------------- Her starter CSS for mobile header ---------------------------------- */
 
- 
+
 
 /* ---------------------------------- Her slutter CSS for mobile header ---------------------------------- */
 
