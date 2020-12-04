@@ -49,6 +49,9 @@ footer p {
 
 #velkommen {
     font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
 }
 #index img {
     width: 90%;
@@ -297,7 +300,63 @@ nav {
 
 /* ---------------------------------- Her starter CSS for inspiration ---------------------------------- */
 
+#inspiration {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
 
+.mandikon {
+    text-align: center;
+    padding: 5%;
+}
+
+
+.kvindeikon {
+     text-align: center;
+    padding: 5%;
+}
+
+.drengikon {
+     text-align: center;
+    padding: 5%;
+    padding-bottom: 20%;
+}
+
+/* --- mand --- */
+
+.ikon1 {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.nummer1 {
+    text-align: center;
+}
+
+.nummer1 img {
+    padding: 3%;
+}
+
+.nummer2 {
+    text-align: center;
+    padding-bottom: 25%;
+}
+
+.nummer2 img {
+    padding: 3%;
+}
+
+
+/* --- mand --- */
+
+/* --- kvinde --- */
+
+/* --- kvinde --- */
+
+/* --- dreng --- */
+
+/* --- dreng --- */
 
 
 /* ---------------------------------- Her slutter CSS for inspiration ---------------------------------- */

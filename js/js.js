@@ -28,3 +28,19 @@ new mapboxgl.Marker()
 function btnBooking() {
     location.href = "booking.html"
 }
+
+function btnMand() {
+    location.href = "mand.html"
+}
+
+function btnKvinde() {
+    location.href = "kvinde.html"
+}
+
+function btnDreng() {
+    location.href = "dreng.html"
+}
+
+function btnReturn() {
+    location.href = "inspiration.html"
+}
