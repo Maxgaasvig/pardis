@@ -47,7 +47,50 @@ footer p {
 
 /* ---------------------------------- Her starter CSS for mobile index.html ---------------------------------- */
 
+#index img {
+    width: 90%;
+    padding: 5%;
+}
 
+#index {
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+button.mbtn {
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #3F3722;
+    font-size: 1.1em;
+    border: 0;
+    cursor: pointer;
+    margin: 1em;
+}
+
+button.mbtn.brown {
+    background-color: #3F3722;
+}
+
+#pardisforside img {
+    width: 30%;
+    padding: 2%;
+    padding-left: 5%;
+}
+
+#pardisforside {
+    padding-top: 15%;
+    display: flex;
+    padding-bottom: 20%;
+}
+
+#pardisforside p {
+    width: 60%;
+    font-size: 15px;
+    padding: 3%;
+    font-weight: 500;
+}
 /* ---------------------------------- Her slutter CSS for mobile index.html ---------------------------------- */
 
 
@@ -318,6 +361,10 @@ nav {
 #find {
     padding-top: 5%;
     text-align: center;
+}
+
+#kontakt p {
+    line-height: 1.5;
 }
 
 /* ---------------------------------- Her slutter CSS for kontakt ---------------------------------- */

@@ -23,3 +23,8 @@ new mapboxgl.Marker()
     .setLngLat([10.194, 56.141])
     .setPopup(popup) // sets a popup on this marker
     .addTo(map);
+
+
+function btnBooking() {
+    location.href = "booking.html"
+}
