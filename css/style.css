@@ -47,6 +47,9 @@ footer p {
 
 /* ---------------------------------- Her starter CSS for mobile index.html ---------------------------------- */
 
+#velkommen {
+    font-size: 23px;
+}
 #index img {
     width: 90%;
     padding: 5%;
