@@ -108,10 +108,14 @@ button.mbtn.brown {
 
 /* ---------------------------------- Her starter CSS for mobile header ---------------------------------- */
 
+.logo{
+    justify-content: center;
+    text-align: center;
+    margin-left: 35px;
+}
+
 header img {
     width: 40%;
-    padding-left: 35%;
-    padding-bottom: 3px;
 }
 
 nav {
