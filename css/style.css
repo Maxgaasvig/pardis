@@ -346,12 +346,24 @@ nav {
 
 .nummer2 {
     text-align: center;
-    padding-bottom: 25%;
 }
 
 .nummer2 img {
     padding: 3%;
 }
+
+.h6 {
+    display: flex;
+}
+
+.h6 p {
+    margin: 0 auto;
+}
+
+.ghost {
+    padding-bottom: 25%;
+}
+
 
 
 /* --- mand --- */
