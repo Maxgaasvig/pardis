@@ -786,6 +786,10 @@ nav {
     /* om pardis slut */
 
     /* inspiration */
+    
+    .nummerdesktop img {
+        padding: 10%;
+    }
     /* inspiration slut */
 
     /* priser */
@@ -910,6 +914,7 @@ nav {
     #ghost3 {
         padding-top: 15%;
     }
+    
     
 
     /* inspiration slut */
