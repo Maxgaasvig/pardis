@@ -309,25 +309,39 @@ nav {
 /* ---------------------------------- Her starter CSS for inspiration ---------------------------------- */
 
 #inspiration {
-    padding-top: 10%;
     padding-bottom: 5%;
 }
 
 .mandikon {
     text-align: center;
     padding: 5%;
+    transition: transform .2s; /* Animation */
 }
 
 
 .kvindeikon {
     text-align: center;
     padding: 5%;
+     transition: transform .2s; /* Animation */
 }
 
 .drengikon {
     text-align: center;
     padding: 5%;
     padding-bottom: 20%;
+     transition: transform .2s; /* Animation */
+}
+
+.mandikon:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.kvindeikon:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.drengikon:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /* --- mand --- */
@@ -336,6 +350,11 @@ nav {
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
+}
+
+.ikon1 img {
+    border: 6px solid black;
+    border-radius: 200px;
 }
 
 .nummer1 {
@@ -754,31 +773,36 @@ nav {
     #kontakt p {
         font-size: 20px;
     }
-
-    /* kontakt slut */
-
+     /* kontakt slut */
+    
     /* om pardis */
     #pardismobile {
         width: 50%;
         padding-bottom: 5%;
     }
-
     #ptekst {
         padding-bottom: 5%;
     }
-
     /* om pardis slut */
-
+    
     /* inspiration */
-    /* inspiration slut */
+    
 
+    .nummerdesktop img {
+        padding: 10%;
+    }
+
+
+    
+     /* inspiration slut */
+    
     /* priser */
-    /* priser slut */
-
-    /* booking */
-    /* booking slut */
-
-
+     /* priser slut */
+    
+       /* booking */
+     /* booking slut */
+    
+   
 }
 
 
@@ -787,15 +811,15 @@ nav {
 @media only screen and (min-width: 1294px) {
 
     /*  Generelle tags ændringer Start  */
-
+    
     h1 {
-        font-size: 40px;
-        padding-top: 5%;
-    }
-
+    font-size: 40px;
+    padding-top: 5%;
+}
+    
     .someimages {
-        width: 10%;
-    }
+    width: 10%;
+}
 
     /*  Generelle tags ændringer Slut  */
 
@@ -842,7 +866,7 @@ nav {
     }
 
     #bodykontakt section {
-        padding: 2%;
+        padding: 5%;
     }
 
     #find {
@@ -862,22 +886,20 @@ nav {
         padding-top: 0%;
         padding-left: 5%;
     }
-
-    #ompardis2 {
-        display: flex;
+    #ompardis2  {
+        display:flex;
         padding: 5%;
     }
-
     #ptekst {
         font-size: 20px;
         width: 50%;
     }
-
-
+    
+    
     /* om pardis slut */
 
     /* inspiration */
-
+    
 
     #insdesktop {
         display: flex;
@@ -894,6 +916,7 @@ nav {
     #ghost3 {
         padding-top: 15%;
     }
+    
     
 
     /* inspiration slut */
