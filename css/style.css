@@ -316,19 +316,35 @@ nav {
 .mandikon {
     text-align: center;
     padding: 5%;
+    transition: transform .2s; /* Animation */
 }
 
 
 .kvindeikon {
     text-align: center;
     padding: 5%;
+     transition: transform .2s; /* Animation */
 }
 
 .drengikon {
     text-align: center;
     padding: 5%;
     padding-bottom: 20%;
+     transition: transform .2s; /* Animation */
 }
+
+.mandikon:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.kvindeikon:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.drengikon:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 
 /* --- mand --- */
 
