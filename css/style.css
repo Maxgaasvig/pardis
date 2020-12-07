@@ -785,12 +785,13 @@ nav {
     /* kontakt */
     #bodykontakt h1 {
         font-size: 40px;
+        padding-top: 5%;
     }
     #kontakt h2 {
-        padding-left: 30%;
+        font-size: 35px;
     }
     #kontakt p {
-        font-size: 20px;
+        font-size: 25px;
     }
     #bodykontakt article {
         display:flex;
@@ -800,11 +801,18 @@ nav {
     #bodykontakt section {
         padding: 5%;
     }
-    #
-    
-    
-    
+    #find {
+        font-size: 30px;
+        padding-top: 0%;
+    }
+    #kontakt {
+        padding-bottom: 0%;
+    }
+        
     /* kontakt slut */
+    
+    /* om pardis */
+    /* om pardis */
     
 }
 
