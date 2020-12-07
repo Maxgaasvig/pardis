@@ -469,7 +469,7 @@ nav {
     width: 100%;
     height: 100%;
     color: #595f6e;
-    padding-top: 10%;
+    padding-top: 9%;
     border: none;
     outline: none;
 
@@ -518,15 +518,18 @@ nav {
     transform: translateX(0%);
 }
 
+/*
 #valgtid {
     display: flex;
     justify-content: center;
 
 }
+*/
 
 /*Box Service Hår*/
 
 .select-box {
+    padding-top: 10%;
     display: flex;
     margin: 0 auto;
     width: 180px;
@@ -696,10 +699,11 @@ nav {
 }
 
 
-.mbtnbooktid{
+.mbtnbooktid {
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    padding-bottom: 5%;
 }
 
 
@@ -714,6 +718,7 @@ nav {
 
 /* tablet */
 @media only screen and (min-width:600px) {
+
     /* index */
     #index img {
         width: 100%;
@@ -734,31 +739,49 @@ nav {
         width: 60%;
         font-size: 1.5em;
     }
-     /* index slut */
-    
+
+    /* index slut */
+
     /* kontakt */
     #kontakt h1 {
         font-size: 40px;
     }
+
     #kontakt h2 {
         font-size: 30px;
     }
+
     #kontakt p {
         font-size: 20px;
     }
-    
-    
+
+
     /* kontakt slut */
 
-   
+
 }
 
 
 
 /* desktop */
 @media only screen and (min-width: 1294px) {
-       /* index */
-     #index button {
+
+    /*  Generelle tags ændringer Start  */
+    
+    h1 {
+    font-size: 40px;
+    padding-top: 5%;
+}
+    
+    .someimages {
+    width: 10%;
+}
+
+    /*  Generelle tags ændringer Slut  */
+
+
+    /* index */
+    #index button {
         padding: 1em 3em;
         border-radius: 20px;
         color: #fff;
@@ -768,58 +791,102 @@ nav {
         cursor: pointer;
         margin: 2em;
     }
+
     #bodyindex section img {
         width: 23%;
     }
+
     #bodyindex section {
         width: 70%;
         margin: 0 auto;
         padding-top: 5%;
         padding-bottom: 10%;
     }
+
     /* index slut */
-       
+
     /* kontakt */
-    #bodykontakt h1 {
-        font-size: 40px;
-        padding-top: 5%;
-    }
+
     #kontakt h2 {
         font-size: 35px;
     }
+
     #kontakt p {
         font-size: 25px;
     }
+
     #bodykontakt article {
-        display:flex;
+        display: flex;
         margin: 0 auto;
         justify-content: center;
     }
+
     #bodykontakt section {
         padding: 5%;
     }
+
     #find {
         font-size: 30px;
         padding-top: 0%;
     }
+
     #kontakt {
         padding-bottom: 0%;
     }
-        
+
     /* kontakt slut */
-    
+
     /* om pardis */
     /* om pardis slut */
-    
+
     /* inspiration */
-     /* inspiration slut */
-    
+    /* inspiration slut */
+
     /* priser */
-     /* priser slut */
-    
-       /* booking */
-     /* booking slut */
-    
+    /* priser slut */
+
+    /* booking */
+
+    .container {
+        padding-top: 10px;
+        margin-left: 10px;
+        margin: 0 auto;
+    }
+
+    .container input {
+        padding-top: 15px;
+    }
+
+    .select-box {
+        padding-top: 5%;
+        width: 380px;
+        flex-direction: column;
+    }
+
+    .selected {
+        margin: 0 0;
+    }
+
+    .tids-box {
+        padding-top: 2%;
+        width: 380px;
+        flex-direction: column;
+    }
+
+    .tidselected {
+        margin: 0 0;
+    }
+
+    .mbtnbooktid {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    /* booking slut */
+
 }
 
 
