@@ -309,40 +309,44 @@ nav {
 /* ---------------------------------- Her starter CSS for inspiration ---------------------------------- */
 
 #inspiration {
-    padding-top: 10%;
     padding-bottom: 5%;
 }
 
 .mandikon {
     text-align: center;
     padding: 5%;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
 }
 
 
 .kvindeikon {
     text-align: center;
     padding: 5%;
-     transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
 }
 
 .drengikon {
     text-align: center;
     padding: 5%;
-    padding-bottom: 20%;
-     transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
 }
 
 .mandikon:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .kvindeikon:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .drengikon:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
@@ -734,8 +738,8 @@ nav {
 
 /* tablet */
 @media only screen and (min-width:600px) {
-    
-        /*  Generelle tags ændringer Start  */
+
+    /*  Generelle tags ændringer Start  */
 
     h1 {
         font-size: 40px;
@@ -799,10 +803,11 @@ nav {
     /* om pardis slut */
 
     /* inspiration */
-    
+
     .nummerdesktop img {
         padding: 10%;
     }
+
     /* inspiration slut */
 
     /* priser */
@@ -913,22 +918,26 @@ nav {
 
 
     #insdesktop {
+        width: 50%;
+        margin: 0 auto;
         display: flex;
-        justify-content: center;
         border-radius: 200px;
         border: 2px solid black;
-        padding: 1.3%;    
         height: 200px;
     }
-    #bodyinspiration article {
-        width: 80%;
-        margin: 0 auto;
-    }
+
     #ghost3 {
+        width: 99%;
         padding-top: 15%;
     }
-    
-    
+
+    .mandikon,
+    .kvindeikon,
+    .drengikon {
+        padding-bottom: 20%;
+        margin: 0 auto;
+    }
+
 
     /* inspiration slut */
 
