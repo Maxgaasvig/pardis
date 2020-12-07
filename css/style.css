@@ -47,7 +47,7 @@ footer p {
 /* ---------------------------------- Her slutter CSS for Footer ---------------------------------- */
 
 
-/* ---------------------------------- Her starter CSS for mobile index.html ---------------------------------- */
+/* ---------------------------------- Her starter CSS for index.html ---------------------------------- */
 
 #velkommen {
     font-size: 23px;
@@ -56,9 +56,8 @@ footer p {
     padding-top: 5%;
 }
 
-#index img {
+#forsidesalon {
     width: 90%;
-    padding: 5%;
 }
 
 #index {
@@ -101,7 +100,7 @@ button.mbtn.brown {
     font-weight: 500;
 }
 
-/* ---------------------------------- Her slutter CSS for mobile index.html ---------------------------------- */
+/* ---------------------------------- Her slutter CSS for index.html ---------------------------------- */
 
 
 
@@ -159,7 +158,7 @@ nav {
 }
 
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1295px) {
     body {
         overflow-x: hidden;
     }
@@ -225,17 +224,108 @@ nav {
 /* ---------------------------------- Her slutter CSS for mobile header ---------------------------------- */
 
 
+/* ---------------------------------- Her starter CSS for media screen ---------------------------------- */
+
+
+/* tablet */
 @media only screen and (min-width:600px) {
+    /* index */
+    #index img {
+        width: 100%;
+        padding: 0%;
+        padding-bottom: 3%;
+    }
+
+    #index {
+        padding-top: 0%;
+    }
+
+    #pardisforside img {
+        width: 20%;
+    }
+
+    #pardisforside p {
+        text-align: inherit;
+        width: 60%;
+        font-size: 1.5em;
+    }
+     /* index slut */
     
+    /* kontakt */
+    #kontakt h1 {
+        font-size: 40px;
+    }
+    #kontakt h2 {
+        font-size: 30px;
+    }
+    #kontakt p {
+        font-size: 20px;
+    }
+    
+    
+    /* kontakt slut */
+
+   
+}
+
+
+
+/* desktop */
+@media only screen and (min-width: 1294px) {
+       /* index */
+     #index button {
+        padding: 1em 3em;
+        border-radius: 20px;
+        color: #fff;
+        background-color: #3F3722;
+        font-size: 1.2em;
+        border: 0;
+        cursor: pointer;
+        margin: 2em;
+    }
+    #bodyindex section img {
+        width: 23%;
+    }
+    #bodyindex section {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    /* index slut */
+       
+    /* kontakt */
+    #bodykontakt h1 {
+        font-size: 40px;
+    }
+    #kontakt h2 {
+        padding-left: 30%;
+    }
+    #kontakt p {
+        font-size: 20px;
+    }
+    #bodykontakt article {
+        display:flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    #bodykontakt section {
+        padding: 5%;
+    }
+    #
+    
+    
+    
+    /* kontakt slut */
     
 }
 
 
 
 
-@media only screen and (min-width: 1030px) {
-    
-}
+
+
+/* ---------------------------------- Her slutter CSS for media screen ---------------------------------- */
 
 
 /* ---------------------------------- Her starter CSS for priser ---------------------------------- */
