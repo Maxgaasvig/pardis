@@ -352,41 +352,27 @@ nav {
 
 /* --- mand --- */
 
-.ikon1 {
-    text-align: center;
+#ikon1 {
+    display: flex;
+    margin: 0 auto;
     padding-top: 10%;
     padding-bottom: 10%;
 }
 
-.nummer1 {
-    text-align: center;
-}
-
-.nummer1 img {
-    padding: 3%;
-}
-
-.nummer2 {
-    text-align: center;
-}
-
-.nummer2 img {
-    padding: 3%;
-}
-
-.h6 {
+.columnrow {
     display: flex;
-}
-
-.h6 p {
+    text-align: center;
     margin: 0 auto;
+    justify-content: center;
 }
 
-.ghost {
-    padding-bottom: 25%;
+.numbers {
+    padding: 2%;
 }
 
-
+#mand1,#mand2{
+    display: none;
+}
 
 /* --- mand --- */
 
@@ -802,8 +788,8 @@ nav {
 
     /* inspiration */
 
-    .nummerdesktop img {
-        padding: 10%;
+    .numbers {
+        padding: 7%;
     }
 
     /* inspiration slut */
@@ -928,28 +914,6 @@ nav {
         width: 99%;
         padding-top: 15%;
     }
-    
-    .nummerdesktop img {
-        width: 20%;
-    }
-    
-    .nummerdesktop {
-        padding-top: 0%;
-    }
-    
-    .ikon1 {
-        padding-bottom: 0%;
-    }
-    #nummerdesktop section img {
-        flex-direction: row;
-    }
-   
-    
-    #testdiv {
-        display:flex;
-    }
-  
-        
 
     .mandikon,
     .kvindeikon,
@@ -957,6 +921,42 @@ nav {
         padding-bottom: 20%;
         margin: 0 auto;
     }
+
+
+    /*  Mand   */
+
+    #ikon1 {
+        padding: 5% 0;
+    }
+
+    .frisurer {
+        width: 150%;
+    }
+    
+    
+    .numbers{
+        margin: 0 auto;
+        padding: 0 0;
+        padding-bottom: 15%;
+    }
+    
+    .numbers p{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    
+    #mand1, #mand2{
+        display: block;
+    }
+    
+    #mand3, #mand4{
+        display: none;
+    }
+
+
+
+
 
 
     /* inspiration slut */
