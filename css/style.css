@@ -227,6 +227,11 @@ nav {
 
 /* ---------------------------------- Her starter CSS for priser ---------------------------------- */
 
+
+#desktopimage {
+    display: none;
+}
+
 .klip-content,
 .refleks-content,
 .farve-content,
@@ -899,6 +904,21 @@ nav {
     /* inspiration slut */
 
     /* priser */
+
+/*
+    #desktopimage {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    #test123 {
+        display: none;
+    }
+*/
+
+
+
     /* priser slut */
 
     /* booking */
