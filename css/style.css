@@ -431,9 +431,7 @@ nav {
     text-align: center;
 }
 
-#kontakt h1 {
-    padding-top: 10%;
-}
+
 
 #kontakt h2 {
     padding-top: 10%;
@@ -918,7 +916,7 @@ nav {
 
 
     #insdesktop {
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         display: flex;
         border-radius: 200px;
@@ -930,6 +928,28 @@ nav {
         width: 99%;
         padding-top: 15%;
     }
+    
+    .nummerdesktop img {
+        width: 20%;
+    }
+    
+    .nummerdesktop {
+        padding-top: 0%;
+    }
+    
+    .ikon1 {
+        padding-bottom: 0%;
+    }
+    #nummerdesktop section img {
+        flex-direction: row;
+    }
+   
+    
+    #testdiv {
+        display:flex;
+    }
+  
+        
 
     .mandikon,
     .kvindeikon,
