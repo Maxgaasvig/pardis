@@ -108,7 +108,7 @@ button.mbtn.brown {
 
 /* ---------------------------------- Her starter CSS for mobile header ---------------------------------- */
 
-.logo{
+.logo {
     justify-content: center;
     text-align: center;
     margin-left: 35px;
@@ -223,6 +223,19 @@ nav {
 
 
 /* ---------------------------------- Her slutter CSS for mobile header ---------------------------------- */
+
+
+@media only screen and (min-width:600px) {
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 1030px) {
+    
+}
 
 
 /* ---------------------------------- Her starter CSS for priser ---------------------------------- */
