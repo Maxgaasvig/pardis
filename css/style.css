@@ -754,11 +754,28 @@ nav {
     #kontakt p {
         font-size: 20px;
     }
-
-
-    /* kontakt slut */
-
-
+     /* kontakt slut */
+    
+    /* om pardis */
+    #pardismobile {
+        width: 50%;
+        padding-bottom: 5%;
+    }
+    #ptekst {
+        padding-bottom: 5%;
+    }
+    /* om pardis slut */
+    
+    /* inspiration */
+     /* inspiration slut */
+    
+    /* priser */
+     /* priser slut */
+    
+       /* booking */
+     /* booking slut */
+    
+   
 }
 
 
@@ -837,6 +854,21 @@ nav {
     /* kontakt slut */
 
     /* om pardis */
+    #pardismobile {
+        width: 35%;
+        padding-top: 0%;
+        padding-left: 5%;
+    }
+    #ompardis2  {
+        display:flex;
+        padding: 5%;
+    }
+    #ptekst {
+        font-size: 20px;
+        width: 50%;
+    }
+    
+    
     /* om pardis slut */
 
     /* inspiration */
