@@ -237,6 +237,10 @@ nav {
     margin-bottom: 20%;
 }
 
+#desktoppriser {
+    display: none;
+}
+
 
 .klip-content img,
 .refleks-content img,
@@ -370,7 +374,8 @@ nav {
     padding: 2%;
 }
 
-#mand1,#mand2{
+#mand1,
+#mand2 {
     display: none;
 }
 
@@ -932,36 +937,64 @@ nav {
     .frisurer {
         width: 150%;
     }
-    
-    
-    .numbers{
+
+
+    .numbers {
         margin: 0 auto;
         padding: 0 0;
         padding-bottom: 15%;
     }
-    
-    .numbers p{
+
+    .numbers p {
         display: flex;
         justify-content: flex-end;
-        
+
     }
-    
-    #mand1, #mand2{
+
+    #mand1,
+    #mand2 {
         display: block;
     }
+
+    #mand3,
+    #mand4 {
+        display: none;
+    }
+
+    /* inspiration slut */
+
+    /* priser */
+
+
+    #desktoppriser {
+        display: block;
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin: 0 auto;
+        width: 65%;
+    }
+
+    .mobilepriser {
+        display: none;
+    }
     
-    #mand3, #mand4{
+    .text-content{
+        display: none;
+    }
+    
+    .priser-content{
+        display: none;
+    }
+    
+    .klip-content,
+    .refleks-content,
+    .farve-content,
+    .permanent-content{
         display: none;
     }
 
 
 
-
-
-
-    /* inspiration slut */
-
-    /* priser */
     /* priser slut */
 
     /* booking */
