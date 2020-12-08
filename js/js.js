@@ -13,12 +13,6 @@ var popup = new mapboxgl.Popup({
     'Pardis Cut i hjertet af Århus C'
 );
 
-// create DOM element for the marker
-var el = document.createElement('div');
-el.id = 'marker';
-
-
-
 new mapboxgl.Marker()
     .setLngLat([10.194, 56.141])
     .setPopup(popup) // sets a popup on this marker
