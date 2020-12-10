@@ -14,7 +14,12 @@ h1 {
     padding-top: 10%;
 }
 
-p,h1,h2,h3,li,button{
+p,
+h1,
+h2,
+h3,
+li,
+button {
     font-family: Eras medium;
 }
 
@@ -981,19 +986,19 @@ nav {
     .mobilepriser {
         display: none;
     }
-    
-    .text-content{
+
+    .text-content {
         display: none;
     }
-    
-    .priser-content{
+
+    .priser-content {
         display: none;
     }
-    
+
     .klip-content,
     .refleks-content,
     .farve-content,
-    .permanent-content{
+    .permanent-content {
         display: none;
     }
 

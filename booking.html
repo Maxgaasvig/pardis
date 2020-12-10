@@ -16,6 +16,7 @@
 
 <body>
     <header id="header">
+        <!--Creating nav bar, with multiple hrefs linking to the websites underpages-->
         <nav>
             <div class="logo">
                 <a href="index.html"><img src="images/hvidtlogo.png" alt="Logo"></a>
@@ -40,9 +41,9 @@
     <h1>Booking</h1>
 
     <form>
-
         <div class="flex">
             <div class="container">
+                <!-- Creating an input box, with autocomplete removed and creating a label for the input box -->
                 <input type="text" name="name" autocomplete="off" required>
                 <label for="name" class="label-name">
                     <span class="content-name">Navn</span>
@@ -50,6 +51,7 @@
             </div>
 
             <div class="container">
+                <!-- Creating an input box, with autocomplete removed and creating a label for the input box -->
                 <input type="text" name="email" autocomplete="off" required>
                 <label for="email" class="label-name">
                     <span class="content-name">Email</span>
@@ -58,6 +60,7 @@
         </div>
 
         <div class="flex">
+            <!-- Creating an input box, with autocomplete removed and creating a label for the input box -->
             <div class="container">
                 <input type="text" name="telefon" autocomplete="off" required>
                 <label for="telefon" class="label-name">
@@ -67,14 +70,10 @@
         </div>
     </form>
 
-<!--
-    <div id=valgtid>
-        <p>Vælg service</p>
-    </div>
--->
-
     <div class="select-box">
+        <!-- Creating a div tag and giving it the class options-container, to contain the multiple service options provided by Pardis Cut -->
         <div class="options-container">
+            <!-- Creating div tags and giving them the class option, since its services provided by Pardis Cut, that will be in the dropdown menu. -->
             <div class="option">
                 <input type="valgservice" class="valgservice" id="serviceklipning" name="category" />
                 <label for="valgservice">--- Klipning ---</label>
@@ -119,22 +118,22 @@
                 <input type="valgservice" class="valgservice" id="service7" name="category" />
                 <label for="tutorials">F - langt hår</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="service8" name="category" />
                 <label for="tutorials">F - bryn</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="service9" name="category" />
                 <label for="tutorials">F - vipper</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="servicerefleks" name="category" />
                 <label for="tutorials">--- Refleks ---</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="service10" name="category" />
                 <label for="sports">R - kort hår</label>
@@ -154,7 +153,7 @@
                 <input type="valgservice" class="valgservice" id="servicepermanent" name="category" />
                 <label for="tutorials">--- Permanent ---</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="service13" name="category" />
                 <label for="sports">P - kort hår</label>
@@ -169,17 +168,17 @@
                 <input type="valgservice" class="valgservice" id="service15" name="category" />
                 <label for="tutorials">P - langt hår</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="service16" name="category" />
                 <label for="sports">P - makeup</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="service17" name="category" />
                 <label for="news">P - 3D øjenbryn</label>
             </div>
-            
+
             <div class="option">
                 <input type="valgservice" class="valgservice" id="service18" name="category" />
                 <label for="tutorials">P - Microblanding</label>
@@ -250,7 +249,7 @@
             Vælg tidspunkt
         </div>
     </div>
-    
+<!-- Creating a button, and adding a onclick function on the button -->
     <div class="mbtnbooktid">
         <button class="mbtn brown" onclick="btnBooking()">Book nu</button>
     </div>
