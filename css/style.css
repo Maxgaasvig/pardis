@@ -14,9 +14,10 @@ h1 {
     padding-top: 10%;
 }
 
+/* ---- styling the font ---- */
 p,h1,h2,h3,li,button{
-    font-family: Eras medium;
-}
+    font-family: Eras medium; 
+} 
 
 
 /* ---------------------------------- Her starter CSS for Footer ---------------------------------- */
@@ -69,7 +70,7 @@ footer p {
     text-align: center;
 }
 
-
+/* ---- styling the button witb borders and color ---- */
 button.mbtn {
     padding: 0.6em 2em;
     border-radius: 8px;
@@ -111,6 +112,7 @@ button.mbtn.brown {
 
 /* ---------------------------------- Her starter CSS for mobile header ---------------------------------- */
 
+/* ---- positioning the logo ---- */
 .logo {
     justify-content: center;
     text-align: center;
@@ -152,7 +154,7 @@ nav {
     display: none;
     cursor: pointer;
 }
-
+/* ---- creating the burger menu for mobile ---- */
 .burger div {
     width: 25px;
     height: 3px;
@@ -161,14 +163,14 @@ nav {
     transition: all 0.3s ease;
 }
 
-
+/* ---- header is changing from burger to navigation links at 1295px ---- */
 @media only screen and (max-width: 1295px) {
     body {
         overflow-x: hidden;
     }
 
 
-
+/* ---- flex boxing the header links and positioning them with style. ---- */
     .nav-links {
         position: fixed;
         right: 0px;
@@ -231,6 +233,8 @@ nav {
 
 /* ---------------------------------- Her starter CSS for priser ---------------------------------- */
 
+
+/* ---- sizing the images and text. ---- */
 .klip-content,
 .refleks-content,
 .farve-content,
@@ -358,15 +362,16 @@ nav {
 }
 
 
-/* --- mand --- */
+/* --- mand, kvinde og dreng --- */
 
+/* ---- flexboxing the icons ---- */
 #ikon1 {
     display: flex;
     margin: 0 auto;
     padding-top: 10%;
     padding-bottom: 10%;
 }
-
+/* ---- positioning the images in row ---- */
 .columnrow {
     display: flex;
     text-align: center;
@@ -377,21 +382,12 @@ nav {
 .numbers {
     padding: 2%;
 }
-
+/* ---- making space around the images ---- */
 #mand1,
 #mand2 {
     display: none;
 }
 
-/* --- mand --- */
-
-/* --- kvinde --- */
-
-/* --- kvinde --- */
-
-/* --- dreng --- */
-
-/* --- dreng --- */
 
 
 /* ---------------------------------- Her slutter CSS for inspiration ---------------------------------- */
@@ -401,6 +397,7 @@ nav {
 
 /* ---------------------------------- Her starter CSS for om pardis ---------------------------------- */
 
+/* ---- flexboxing image with text and sizing it.---- */
 #pardismobile {
     padding-top: 10%;
     display: flex;
@@ -443,7 +440,7 @@ nav {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
+/* ---- sizing the map ---- */
 .mapboxgl-popup {
     max-width: 200px;
     color: black;
@@ -467,6 +464,8 @@ nav {
 
 
 /* ---------------------------------- Her starter CSS for booking ---------------------------------- */
+
+/* ---- positioning the containers  ---- */
 
 .container {
     padding-top: 5%;
@@ -499,6 +498,7 @@ nav {
 
 }
 
+/* ---- animation ---- */
 .container label::after {
     content: "";
     position: absolute;
@@ -540,7 +540,7 @@ nav {
 */
 
 /*Box Service Hår*/
-
+/* ---- flexboing ---- */
 .select-box {
     padding-top: 10%;
     display: flex;
