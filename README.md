@@ -1,1 +1,2 @@
-# pardis
+# Pardis Cut er en frisør salon, som fokuserer på kvalitet og god service. 
+## På siden kan du se billeder af salonen, inspiration omkring frisurer, kontaktinformation, information omkring indehaveren og du kan booke en tid. 
