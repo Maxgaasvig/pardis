@@ -1,4 +1,5 @@
  
+/* ---- we have this code from a 3rd party client, look in literaturlist ---- */
 
 const navSlide = () => {
      const burger = document.querySelector('.burger');

@@ -471,7 +471,7 @@ nav {
 
 /* ---- positioning the containers  ---- */
 
-/* ---- we have this code from a 3rd party client, look in bilag ---- */
+/* ---- we have this code from a 3rd party client, look in literaturlist ---- */
 
 .container {
     padding-top: 5%;
@@ -537,16 +537,10 @@ nav {
     transform: translateX(0%);
 }
 
-/*
-#valgtid {
-    display: flex;
-    justify-content: center;
-
-}
-*/
-
 /*Box Service Hår*/
-/* ---- flexboing ---- */
+
+/* ---- we have this code from a 3rd party client, look in literaturlist ---- */
+
 .select-box {
     padding-top: 10%;
     display: flex;

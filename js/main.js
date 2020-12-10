@@ -1,5 +1,8 @@
-//* Javascript Service box *//
+/* ---- we have this code from a 3rd party client, look in literaturlist ---- */
 
+/*Comment made on our own.*/
+
+/* Javascript Service box */
 
 /* Creating 3 variables, selected, optionsContainer, optionsList, with queryselector, select the elements from the html. */
 const selected = document.querySelector(".selected");
