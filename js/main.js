@@ -5,6 +5,7 @@
 /* Javascript Service box */
 
 /* Creating 3 variables, selected, optionsContainer, optionsList, with queryselector, select the elements from the html. */
+/*jshint esversion: 6 */
 const selected = document.querySelector(".selected");
 const optionsContainer = document.querySelector(".options-container");
 const optionsList = document.querySelectorAll(".option");

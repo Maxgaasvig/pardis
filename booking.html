@@ -10,7 +10,6 @@
     <meta name="keywords" content="Frisør, Inspiration, Barber, frisør aarhus, frisør Århus, herre klip, dame klip, børne klip, frisør booking" />
     <meta name="description" content="Velkommen til Pardis Cut. Hos os kan du boobke din tid online, eller hvis du lyster kan du også bare give os til kald!">
     <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet">
 </head>
 
 
@@ -44,16 +43,16 @@
         <div class="flex">
             <div class="container">
                 <!-- Creating an input box, with autocomplete removed and creating a label for the input box -->
-                <input type="text" name="name" autocomplete="off" required>
-                <label for="name" class="label-name">
+                <input type="text" name="name" id="inputname" autocomplete="off" required>
+                <label for="inputname" class="label-name">
                     <span class="content-name">Navn</span>
                 </label>
             </div>
 
             <div class="container">
                 <!-- Creating an input box, with autocomplete removed and creating a label for the input box -->
-                <input type="text" name="email" autocomplete="off" required>
-                <label for="email" class="label-name">
+                <input type="text" name="email" id="inputemail" autocomplete="off" required>
+                <label for="inputemail" class="label-name">
                     <span class="content-name">Email</span>
                 </label>
             </div>
@@ -62,8 +61,8 @@
         <div class="flex">
             <!-- Creating an input box, with autocomplete removed and creating a label for the input box -->
             <div class="container">
-                <input type="text" name="telefon" autocomplete="off" required>
-                <label for="telefon" class="label-name">
+                <input type="text" name="telefon" id="inputtelefon" autocomplete="off" required>
+                <label for="inputtelefon" class="label-name">
                     <span class="content-name">Telefon</span>
                 </label>
             </div>
@@ -75,113 +74,113 @@
         <div class="options-container">
             <!-- Creating div tags and giving them the class option, since its services provided by Pardis Cut, that will be in the dropdown menu. -->
             <div class="option">
-                <input type="valgservice" class="valgservice" id="serviceklipning" name="category" />
-                <label for="valgservice">--- Klipning ---</label>
+                <input type="radio" class="valgservice" id="serviceklipning" name="category" />
+                <label for= "serviceklipning" >--- Klipning ---</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service1" name="category" />
-                <label for="film">Dame klip</label>
+                <input type="radio" class="valgservice" id="service1" name="category" />
+                <label for="service1">Dame klip</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service2" name="category" />
-                <label for="science">Herre klip</label>
+                <input type="radio" class="valgservice" id="service2" name="category" />
+                <label for="service2">Herre klip</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service3" name="category" />
-                <label for="art">Børne klip (under 5år)</label>
+                <input type="radio" class="valgservice" id="service3" name="category" />
+                <label for="service3">Børne klip (under 5år)</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="servicefarve" name="category" />
-                <label for="music">--- Farve ---</label>
+                <input type="radio" class="valgservice" id="servicefarve" name="category" />
+                <label for="servicefarve">--- Farve ---</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service4" name="category" />
-                <label for="travel">F - bund farving</label>
+                <input type="radio" class="valgservice" id="service4" name="category" />
+                <label for="service4">F - bund farving</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service5" name="category" />
-                <label for="sports">F - kort hår</label>
+                <input type="radio" class="valgservice" id="service5" name="category" />
+                <label for="service5">F - kort hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service6" name="category" />
-                <label for="news">F - mellemlangt hår</label>
+                <input type="radio" class="valgservice" id="service6" name="category" />
+                <label for="service6">F - mellemlangt hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service7" name="category" />
-                <label for="tutorials">F - langt hår</label>
+                <input type="radio" class="valgservice" id="service7" name="category" />
+                <label for="service7">F - langt hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service8" name="category" />
-                <label for="tutorials">F - bryn</label>
+                <input type="radio" class="valgservice" id="service8" name="category" />
+                <label for="service8">F - bryn</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service9" name="category" />
-                <label for="tutorials">F - vipper</label>
+                <input type="radio" class="valgservice" id="service9" name="category" />
+                <label for="service9">F - vipper</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="servicerefleks" name="category" />
-                <label for="tutorials">--- Refleks ---</label>
+                <input type="radio" class="valgservice" id="servicerefleks" name="category" />
+                <label for="servicerefleks">--- Refleks ---</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service10" name="category" />
-                <label for="sports">R - kort hår</label>
+                <input type="radio" class="valgservice" id="service10" name="category" />
+                <label for="service10">R - kort hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service11" name="category" />
-                <label for="news">R - mellemlangt hår</label>
+                <input type="radio" class="valgservice" id="service11" name="category" />
+                <label for="service11">R - mellemlangt hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service12" name="category" />
-                <label for="tutorials">R - langt hår</label>
+                <input type="radio" class="valgservice" id="service12" name="category" />
+                <label for="service12">R - langt hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="servicepermanent" name="category" />
-                <label for="tutorials">--- Permanent ---</label>
+                <input type="radio" class="valgservice" id="servicepermanent" name="category" />
+                <label for="servicepermanent">--- Permanent ---</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service13" name="category" />
-                <label for="sports">P - kort hår</label>
+                <input type="radio" class="valgservice" id="service13" name="category" />
+                <label for="service13">P - kort hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service14" name="category" />
-                <label for="news">P - mellemlangt hår</label>
+                <input type="radio" class="valgservice" id="service14" name="category" />
+                <label for="service14">P - mellemlangt hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service15" name="category" />
-                <label for="tutorials">P - langt hår</label>
+                <input type="radio" class="valgservice" id="service15" name="category" />
+                <label for="service15">P - langt hår</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service16" name="category" />
-                <label for="sports">P - makeup</label>
+                <input type="radio" class="valgservice" id="service16" name="category" />
+                <label for="service16">P - makeup</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service17" name="category" />
-                <label for="news">P - 3D øjenbryn</label>
+                <input type="radio" class="valgservice" id="service17" name="category" />
+                <label for="service17">P - 3D øjenbryn</label>
             </div>
 
             <div class="option">
-                <input type="valgservice" class="valgservice" id="service18" name="category" />
-                <label for="tutorials">P - Microblanding</label>
+                <input type="radio" class="valgservice" id="service18" name="category" />
+                <label for="service18">P - Microblanding</label>
             </div>
         </div>
         <div class="selected">
@@ -192,56 +191,56 @@
     <div class="tids-box">
         <div class="tid-options-container">
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="automobiles" name="category" />
-                <label for="automobiles">10:00</label>
+                <input type="radio" class="valgtid" id="tidspunkt1" name="category" />
+                <label for="tidspunkt1">10:00</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt1" name="category" />
-                <label for="film">10:45</label>
+                <input type="radio" class="valgtid" id="tidspunkt2" name="category" />
+                <label for="tidspunkt2">10:45</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt2" name="category" />
-                <label for="science">11:30</label>
+                <input type="radio" class="valgtid" id="tidspunkt3" name="category" />
+                <label for="tidspunkt3">11:30</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt3" name="category" />
-                <label for="art">12:15</label>
+                <input type="radio" class="valgtid" id="tidspunkt4" name="category" />
+                <label for="tidspunkt4">12:15</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt4" name="category" />
-                <label for="music">13:00</label>
+                <input type="radio" class="valgtid" id="tidspunkt5" name="category" />
+                <label for="tidspunkt5">13:00</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt5" name="category" />
-                <label for="travel">13:45</label>
+                <input type="radio" class="valgtid" id="tidspunkt6" name="category" />
+                <label for="tidspunkt6">13:45</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt6" name="category" />
-                <label for="sports">14:30</label>
+                <input type="radio" class="valgtid" id="tidspunkt7" name="category" />
+                <label for="tidspunkt7">14:30</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt7" name="category" />
-                <label for="news">15:15</label>
+                <input type="radio" class="valgtid" id="tidspunkt8" name="category" />
+                <label for="tidspunkt8">15:15</label>
             </div>
 
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt8" name="category" />
-                <label for="tutorials">16:00</label>
+                <input type="radio" class="valgtid" id="tidspunkt9" name="category" />
+                <label for="tidspunkt9">16:00</label>
             </div>
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt9" name="category" />
-                <label for="tutorials">16:45</label>
+                <input type="radio" class="valgtid" id="tidspunkt10" name="category" />
+                <label for="tidspunkt10">16:45</label>
             </div>
             <div class="tidsoption">
-                <input type="valgtid" class="valgtid" id="tidspunkt10" name="category" />
-                <label for="tutorials">17:30</label>
+                <input type="radio" class="valgtid" id="tidspunkt11" name="category" />
+                <label for="tidspunkt11">17:30</label>
             </div>
         </div>
 

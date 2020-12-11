@@ -1,10 +1,11 @@
  
 /* ---- we have this code from a 3rd party client, look in literaturlist ---- */
+/*jshint esversion: 6 */
 
-const navSlide = () => {
-     const burger = document.querySelector('.burger');
-     const nav = document.querySelector('.nav-links');
-     const navLinks = document.querySelectorAll('.nav-links li')
+var navSlide = () => {
+     var burger = document.querySelector('.burger');
+     var nav = document.querySelector('.nav-links');
+     var navLinks = document.querySelectorAll('.nav-links li');
 
 
 
@@ -15,9 +16,9 @@ const navSlide = () => {
          // Animate Links
          navLinks.forEach((link, index) => {
              if (link.style.animation) {
-                 link.style.animation = ''
+                 link.style.animation = '';
              } else {
-                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.9}s`
+                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.9}s`;
                  console.log(index / 7);
              }
 
@@ -28,7 +29,7 @@ const navSlide = () => {
 
      });
 
- }
+ };
  navSlide();
 
 
@@ -51,10 +52,10 @@ const navSlide = () => {
      var dots = document.getElementsByClassName("demo");
      var captionText = document.getElementById("caption");
      if (n > slides.length) {
-         slideIndex = 1
+         slideIndex = 1;
      }
      if (n < 1) {
-         slideIndex = slides.length
+         slideIndex = slides.length;
      }
      for (i = 0; i < slides.length; i++) {
          slides[i].style.display = "none";

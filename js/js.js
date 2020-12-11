@@ -27,21 +27,21 @@ new mapboxgl.Marker()
 
 /* Creating button functions with location.href to different underpages of the website. */
 function btnBooking() {
-    location.href = "booking.html"
+    location.href = "booking.html";
 }
 
 function btnMand() {
-    location.href = "mand.html"
+    location.href = "mand.html";
 }
 
 function btnKvinde() {
-    location.href = "kvinde.html"
+    location.href = "kvinde.html";
 }
 
 function btnDreng() {
-    location.href = "dreng.html"
+    location.href = "dreng.html";
 }
 
 function btnReturn() {
-    location.href = "inspiration.html"
+    location.href = "inspiration.html";
 }

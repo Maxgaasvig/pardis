@@ -10,7 +10,6 @@
     <meta name="keywords" content="Frisør, Inspiration, Barber, frisør aarhus, frisør Århus, herre klip, dame klip, børne klip, dame inspiration, inspiration, inspiration frisurer" />
     <meta name="description" content="Velkommen til Pardis Cut. Kom ind og pæne dame klipninger som kan inspirerer din klipning">
     <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
 </head>
@@ -19,6 +18,8 @@
 
 <body>
     <header id="header">
+        <!-- Creating nav bar, with multiple hrefs linking to the websites underpages -->
+
         <nav>
             <div class="logo">
                 <a href="index.html"><img src="images/hvidtlogo.png" alt="Logo"></a>
@@ -42,41 +43,42 @@
 
 
 
-<!--- icon with link ---->
-     <img id="ikon1" src="images/kvindeikon.png" onclick="btnReturn()" alt="kvinde">
+    <!-- icon with link -->
+    <img id="ikon1" src="images/kvindeikon.png" onclick="btnReturn()" alt="kvinde">
 
-     <article> 
+    <article>
         <div id="select-frisure">
-           <div class="columnrow"> <!--- images in coloumn  ---->
-            <div class="numbers">
-                <img class="frisurer" src="images/kvinde1.png" alt="mand">
-                <p>Frisure 1</p>
-            </div>
-            <div class="numbers">
-                <img class="frisurer" src="images/kvinde2.png" alt="mand">
-                <p>Frisure 2</p>
-            </div>
-              <div class="numbers" id="mand1">
-                <img class="frisurer" src="images/kvinde3.png" alt="mand">
-                <p>Frisure 3</p>
-            </div>
-            
-            <div class="numbers" id="mand2">
-                <img class="frisurer" src="images/kvinde4.png" alt="mand">
-                <p>Frisure 4</p>
-            </div>
-            
+            <div class="columnrow">
+                <!-- images in coloumn  -->
+                <div class="numbers">
+                    <img class="frisurer" src="images/kvinde1.png" alt="mand">
+                    <p>Stor krøl</p>
+                </div>
+                <div class="numbers">
+                    <img class="frisurer" src="images/kvinde2.png" alt="mand">
+                    <p>Whitey krøl</p>
+                </div>
+                <div class="numbers" id="mand1">
+                    <img class="frisurer" src="images/kvinde3.png" alt="mand">
+                    <p>Whitey glans</p>
+                </div>
+
+                <div class="numbers" id="mand2">
+                    <img class="frisurer" src="images/kvinde4.png" alt="mand">
+                    <p>Low krøl</p>
+                </div>
+
             </div>
             <div class="columnrow">
-            <div class="numbers" id="mand3">
-                <img class="frisurer" src="images/kvinde3.png" alt="mand">
-                <p>Frisure 3</p>
+                <div class="numbers" id="mand3">
+                    <img class="frisurer" src="images/kvinde3.png" alt="mand">
+                    <p>Whitey glans</p>
+                </div>
+                <div class="numbers" id="mand4">
+                    <img class="frisurer" src="images/kvinde4.png" alt="mand">
+                    <p>Low krøl</p>
+                </div>
             </div>
-            <div class="numbers" id="mand4">
-                <img class="frisurer" src="images/kvinde4.png" alt="mand">
-                <p>Frisure 4</p>
-            </div>
-             </div>
         </div>
     </article>
 
@@ -111,4 +113,6 @@
     <!-- scripts -->
     <script src="js/app.js"></script>
     <script src="js/js.js"></script>
-</body></html>
+</body>
+
+</html>

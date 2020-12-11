@@ -10,7 +10,6 @@
     <meta name="keywords" content="Frisør, Inspiration, Barber, frisør aarhus, frisør Århus, herre klip, dame klip, børne klip, herre inspiration, inspiration, inspiration frisurer, inspiration klipning" />
     <meta name="description" content="Her ses mænde frisurer som kan bruges til inspirerer din klipning">
     <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
 </head>
@@ -19,6 +18,8 @@
 
 <body id="bodymand">
     <header id="header">
+        <!-- Creating nav bar, with multiple hrefs linking to the websites underpages -->
+
         <nav>
             <div class="logo">
                 <a href="index.html"><img src="images/hvidtlogo.png" alt="Logo"></a>
@@ -39,41 +40,42 @@
         </nav>
 
     </header>
-<!--- icon with link ---->
+    <!-- icon with link -->
     <img id="ikon1" src="images/mandikon.png" onclick="btnReturn()" alt="mand">
 
     <article>
-        <div id="select-frisure"> <!--- images in coloumn ---->
-           <div class="columnrow">
-            <div class="numbers">
-                <img class="frisurer" src="images/mand1.png" alt="mand">
-                <p>Frisure 1</p>
-            </div>
-            <div class="numbers">
-                <img class="frisurer" src="images/mand2.png" alt="mand">
-                <p>Frisure 2</p>
-            </div>
-              <div class="numbers" id="mand1">
-                <img class="frisurer" src="images/mand3.png" alt="mand">
-                <p>Frisure 3</p>
-            </div>
-            
-            <div class="numbers" id="mand2">
-                <img class="frisurer" src="images/mand4.png" alt="mand">
-                <p>Frisure 4</p>
-            </div>
-            
+        <div id="select-frisure">
+            <!-- images in coloumn -->
+            <div class="columnrow">
+                <div class="numbers">
+                    <img class="frisurer" src="images/mand1.png" alt="mand">
+                    <p>Slik hår</p>
+                </div>
+                <div class="numbers">
+                    <img class="frisurer" src="images/mand2.png" alt="mand">
+                    <p>Beckham</p>
+                </div>
+                <div class="numbers" id="mand1">
+                    <img class="frisurer" src="images/mand3.png" alt="mand">
+                    <p>Mr. Cool</p>
+                </div>
+
+                <div class="numbers" id="mand2">
+                    <img class="frisurer" src="images/mand4.png" alt="mand">
+                    <p>Bendter</p>
+                </div>
+
             </div>
             <div class="columnrow">
-            <div class="numbers" id="mand3">
-                <img class="frisurer" src="images/mand3.png" alt="mand">
-                <p>Frisure 3</p>
+                <div class="numbers" id="mand3">
+                    <img class="frisurer" src="images/mand3.png" alt="mand">
+                    <p>Mr. Cool</p>
+                </div>
+                <div class="numbers" id="mand4">
+                    <img class="frisurer" src="images/mand4.png" alt="mand">
+                    <p>Bendter</p>
+                </div>
             </div>
-            <div class="numbers" id="mand4">
-                <img class="frisurer" src="images/mand4.png" alt="mand">
-                <p>Frisure 4</p>
-            </div>
-             </div>
         </div>
     </article>
 
@@ -107,4 +109,6 @@
     <!-- scripts -->
     <script src="js/app.js"></script>
     <script src="js/js.js"></script>
-</body></html>
+</body>
+
+</html>
